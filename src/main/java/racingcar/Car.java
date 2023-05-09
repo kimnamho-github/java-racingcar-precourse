@@ -11,27 +11,27 @@ public class Car {
         this.name = name;
     }
 
-    public Car(String name, int position){
-        this.name= name;
-        this.position= position;
-    }
+    // 추가 기능 구현
 
-    public String getName() {
-        return name;
-    }
+//    public Car(String name, int position){
+//        this.name= name;
+//        this.position= position;
+//    }
+
+//    public String getName() {
+//        return name;
+//    }
 
     public int getPosition(){
         return position;
     }
-
-    public int move(){
+    public void move(){
         int random = Randoms.pickNumberInRange(0,9);
 
         if(random >= 4){
             position++;
         }
 
-        return position;
     }
 
 }

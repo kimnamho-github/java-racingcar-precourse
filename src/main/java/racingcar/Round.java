@@ -40,7 +40,11 @@ public class Round {
     public String moveState(int position){
         String str = "";
 
+<<<<<<< HEAD
         if(position == 1){
+=======
+        for (int i = 0; i < position; i++){
+>>>>>>> github/main
             str = "-";
         }
 
