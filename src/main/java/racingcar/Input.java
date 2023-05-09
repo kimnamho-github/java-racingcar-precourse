@@ -38,7 +38,7 @@ public class Input {
 
             for (String name : carArr){
                 CarNameLimit(name);
-                Car c = new Car(name,0);
+                Car c = new Car(name);
 
                 carList.add(c);
             }
